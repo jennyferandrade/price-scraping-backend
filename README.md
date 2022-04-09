@@ -12,4 +12,4 @@
 ## Docker 
 To build the image run: `docker build -t price-scrapping:0.0.1 .`
 To see the built image: `docker images`
-To run a container: `docker run price-scrapping:0.0.1`
+To run a container: `docker run --name price -d price-scrapping:0.0.1 `
